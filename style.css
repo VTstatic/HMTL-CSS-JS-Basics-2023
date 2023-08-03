@@ -1,5 +1,5 @@
 body{
-    background-color: lightyellow;
+    background-color: slategray;
     text-align: justify;
 }
 header{
@@ -10,22 +10,19 @@ footer{
     text-align: center;
     background-color: lightcyan;
 }
+h1{
+    color: greenyellow;
+}
 #p1{
-    color: green;
+    color: lime;
 }
 #p2{
-    color: red;
+    color: lightgreen;
 }
 #p3{
-    color: blue;
+    color: lightseagreen;
 }
-.odd{
-    color: crimson;
-    border: 2px;
-    text-align: left;
+#p4{
+    color: lightyellow;
 }
-.even{
-    color: darkmagenta;
-    border: 2px;
-    text-align: right;
-}
+
