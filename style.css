@@ -1,0 +1,31 @@
+body{
+    background-color: lightyellow;
+    text-align: justify;
+}
+header{
+    text-align: center;
+    background-color: lightcyan;
+}
+footer{
+    text-align: center;
+    background-color: lightcyan;
+}
+#p1{
+    color: green;
+}
+#p2{
+    color: red;
+}
+#p3{
+    color: blue;
+}
+.odd{
+    color: crimson;
+    border: 2px;
+    text-align: left;
+}
+.even{
+    color: darkmagenta;
+    border: 2px;
+    text-align: right;
+}
