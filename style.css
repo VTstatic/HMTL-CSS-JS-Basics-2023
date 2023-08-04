@@ -1,35 +1,36 @@
-#div1{
-    background-color: lightcoral;
-    width: 100px;
-    height: 100px;
-    display: block;
+header{
+    text-align: center;
+    background-color: lightcyan;
 }
-#span1{
-    background-color: lightblue;
-    width: 100px;
-    height: 100px;
-    display: block;
+footer{
+    text-align: center;
+    background-color: lightcyan;
 }
-#div2{
-    background-color: lightgreen;
-    width: 100px;
-    height: 100px;
-    display: inline;
+
+.container{
+    background-color: aquamarine;
+    height: 100vh;
 }
-#span2{
-    background-color: lightsalmon;
-    width: 100px;
-    height: 100px;
-    display: inline;
-}#div3{
-    background-color: lightyellow;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+.box{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 75%;
+    
 }
-#span3{
-    background-color: lightpink;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+.box1{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    max-height: 75%;
 }
