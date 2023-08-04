@@ -34,10 +34,18 @@ main{
     border: 2px solid;
     border-radius: 20px;
     box-shadow: 2px 2px 2px;
+    text-align: center;
 }
 h3{
     text-shadow: 2px 3px 3px gold;
 }
 p{
     text-shadow: 2px 3px 3px gold;
+}
+
+#container{
+    border: 2px solid red;
+    }
+#container~p{
+    color: red;
 }
