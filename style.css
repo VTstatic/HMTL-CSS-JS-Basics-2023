@@ -123,3 +123,33 @@ li:hover{
 .inp10c:checked + .lbl10c{
     background-color: cyan;
 }
+#h1au::first-letter{
+font-size: 2em;
+font-size: Borel;
+}
+#h1au::first-letter{
+    font-size: 2em;
+    font-size: Borel;
+    }
+#pau::first-line{
+    background-color: lightcoral;
+}
+#pau::selection{
+    color: limegreen;
+    background-color: red;
+}
+#fruit li::before{
+    content: "✔️";
+}
+#melon::after{
+    content: "🍈";
+}
+#kiwi::after{
+    content: "🥝";
+}
+#peach::after{
+    content: "🍑";
+}
+#pineapple::after{
+    content: "🍍";
+}
