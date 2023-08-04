@@ -1,5 +1,35 @@
+header{
+    text-align: center;
+    
+}
+a{
+    text-shadow: 2px 1px 3px yellow;
+}
+body{
+    background-color: lightcyan;
+}
 h1{
     border-style:double;
-    border-width: 2;
+    border-radius: 200px;
+    text-align: center;
+}
+p{
+    border-bottom: 3px solid red;
+    border-top: 3px solid blue;
+    border-left: 3px solid gold;
+    border-right: 3px solid green;
 }
 
+h2{
+    text-shadow: 2px 1px 3px green;
+    ;
+}
+#box1{
+    text-align: center;
+    border-bottom: 3px solid blue;
+    border-top: 3px solid Red;
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+    background-color: white;
+    text-shadow: 2px 1px 3px yellow;
+}
