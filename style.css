@@ -1,3 +1,15 @@
+@font-face{
+    src: url(/fonts/Borel-Regular.ttf);
+    font-family: Borel;
+}
+@font-face{
+    src: url(/fonts/EduSABeginner-VariableFont_wght.ttf);
+    font-family: EduSA;
+}
+@font-face{
+    src: url(/fonts/IndieFlower-Regular.ttf);
+    font-family: Indie;
+}
 header{
     text-shadow: 2px 3px 3px white;
     text-align:center;
@@ -5,9 +17,9 @@ header{
     border: 2px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 2px;
-    height: 30px;
     align-self: center;
     opacity: 85%;
+    padding: 10px;
 }
 footer{
     text-shadow: 2px 3px 3px white;
@@ -16,10 +28,15 @@ footer{
     border: 2px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 2px;
-    height: 30px;
+    padding: 10px;;
     align-self: center;
     opacity: 85%;
 }
+
+#h1n1{
+    font-family: Indie;
+}
+
 body{
     background-image: url(/image/luffyGear5.jpg);
     background-position: center;
@@ -42,10 +59,64 @@ h3{
 p{
     text-shadow: 2px 3px 3px gold;
 }
+a:visited{
+    color: royalblue;
+}
+button:hover{
+    font-size: 1.1em;
+    background-color: red;
+}
+button:active{
+    font-size: 1.1em;
+    background-color: limegreen;
+}
+label:hover{
+    background-color: cyan;
+    font-weight: bold;
+}
+li:hover{
+    background-color: gold;
+    font-weight: bold;
+}
 
-#container{
+#divorder{
+    width: 50%;
+    height: 150px;
     border: 2px solid red;
-    }
-#container~p{
-    color: red;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px;
+    margin-left: 25%;
+}
+.inp1c:checked + .lbl1c{
+        background-color: cyan;
+}
+.inp2c:checked + .lbl2c{
+    background-color: cyan;
+}
+.inp3c:checked + .lbl3c{
+    background-color: cyan;
+}
+.inp4c:checked + .lbl4c{
+    background-color: cyan;
+}
+.inp5c:checked + .lbl5c{
+    background-color: cyan;
+}
+.inp6c:checked + .lbl6c{
+    background-color: cyan;
+}
+.inp6c:checked + .lbl6c{
+    background-color: cyan;
+}
+.inp7c:checked + .lbl7c{
+    background-color: cyan;
+}
+.inp8c:checked + .lbl8c{
+    background-color: cyan;
+}
+.inp9c:checked + .lbl9c{
+    background-color: cyan;
+}
+.inp10c:checked + .lbl10c{
+    background-color: cyan;
 }
