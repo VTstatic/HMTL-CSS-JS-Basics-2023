@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Borel;
+    src: url(fonts/Borel-Regular.ttf);
+}
+@font-face {
+    font-family: EduSA;
+    src: url(fonts/EduSABeginner-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: IndieFlower;
+    src: url(fonts/IndieFlower-Regular.ttf);
+}
+
 body{
     background-color: slategray;
     text-align: justify;
@@ -12,17 +25,23 @@ footer{
 }
 h1{
     color: greenyellow;
+    font-family: Borel;
 }
 #p1{
     color: lime;
+    font-family: EduSA;
 }
 #p2{
     color: lightgreen;
+    font-family: IndieFlower;
 }
 #p3{
-    color: lightseagreen;
+    color: lightgoldenrodyellow;
+    font-family: EduSA;
+    font-size: 1.3em;
 }
 #p4{
     color: lightyellow;
+    font-family: Borel;
 }
 
