@@ -1,36 +1,27 @@
 header{
-    text-align: center;
     background-color: lightcyan;
+    text-align: center;
 }
 footer{
-    text-align: center;
     background-color: lightcyan;
-}
-
-.container{
-    background-color: aquamarine;
-    height: 100vh;
-}
-.box{
-    border: 2px solid;
-    padding: 25px;
-    box-sizing: border-box;
-    height: auto;
-    width: 50%;
-    float: left;
     text-align: center;
+}
 
-    min-height: 75%;
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 0px;
     
 }
-.box1{
-    border: 2px solid;
-    padding: 25px;
-    box-sizing: border-box;
-    height: auto;
-    width: 50%;
-    float: left;
-    text-align: center;
-
-    max-height: 75%;
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+   
+    
 }
