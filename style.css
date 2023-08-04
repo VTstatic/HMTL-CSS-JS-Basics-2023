@@ -4,21 +4,32 @@ header{
 footer{
     text-align: center;
 }
-body{  
-    border: 3px solid red;
-    border-radius: 5px;
-}
-#img1{
-    float: left;
-    margin-right: 10px;
-}
-#img2{
-    float: right;
-    margin-right: 10px;
-}
 p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 1.2em;
+}
+#div1{
+    border:2px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 20px;
+}
+#div2{
+    border:2px solid;
+    height: 75px;
+    overflow:hidden;
+}
+#div3{
+    border:2px solid;
+    height: 75px;
+    overflow: auto;
+    }
+#div4{
+    border:2px solid;
+    height: 75px;
+    overflow:scroll;
+}
+#div5{
+    border:2px solid;
+    height: 75px;
+    overflow:visible;
 }
