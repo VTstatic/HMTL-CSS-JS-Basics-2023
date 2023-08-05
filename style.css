@@ -207,3 +207,15 @@ font-size: Borel;
     background-color: limegreen;
     text-align: center;
 }
+@media screen and (max-width:600px){
+    #divorder, {
+        width: 100%;
+        }
+    #h1n1{
+        font-size:inherit;
+    }
+    .navbar{
+        width: inherit;
+        height: inherit;
+    }
+}
