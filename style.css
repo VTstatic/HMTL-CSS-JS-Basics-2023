@@ -52,10 +52,6 @@ footer{
     float: left;
 }
 
-#h1n1{
-    font-family: Indie;
-}
-
 body{
     background-image: url(/image/luffyGear5.jpg);
     background-position: center;
@@ -72,6 +68,11 @@ main{
     text-align: center;
     margin: 20px;
 }
+
+#h1n1{
+    font-family: Indie;
+}
+
 h3{
     text-shadow: 2px 3px 3px gold;
 }

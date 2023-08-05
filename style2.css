@@ -1,0 +1,98 @@
+@font-face{
+    src: url(/fonts/Borel-Regular.ttf);
+    font-family: Borel;
+}
+@font-face{
+    src: url(/fonts/EduSABeginner-VariableFont_wght.ttf);
+    font-family: EduSA;
+}
+@font-face{
+    src: url(/fonts/IndieFlower-Regular.ttf);
+    font-family: Indie;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(250, 87, 87);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border: 3px solid;
+    border-radius: 15px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:rgb(248, 48, 48);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.navbar li{
+    float: left;
+}
+
+body{
+    background-image: url(/image/luffyGear5.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    margin:0px;
+}
+
+#h1n1{
+    font-family: Indie;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: rgb(39, 37, 37);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    aside, section, article, {
+        width: 100%;
+        }
+    #h1n1{
+        font-size:inherit;
+    }
+    .navbar{
+        width: inherit;
+        height: inherit;
+    }
+}
