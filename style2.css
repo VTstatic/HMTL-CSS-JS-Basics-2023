@@ -107,7 +107,6 @@ body{
 
 main{
     background-color: darkgoldenrod;
-    opacity: 85%;
     border: 2px solid;
     border-radius: 20px;
     box-shadow: 2px 2px 2px;
@@ -143,41 +142,72 @@ footer{
 }
 
 /*start here*/
-.boxs{
+
+#box11{
     width: 150px;
     height: 150px;
-    border: 5px solid;
     font-size: 8em;
     text-align: center;
-
-    transform: translateX(100px) rotate(45deg) scale(0.9);
-}
-/* transform properties
-transform: translate(10%, 10%)
-(x, Y)
-transform: rotateX(##deg)
-transform: rotateY(##deg)
-transform: rotateZ(##deg)
-transform: scaleX(##)
-transform: scaleY(##)
-transform: scale(#, #)x, y
-transform: skewX(##deg)
-transform: skewY(##deg)
-transform: skew(#, #)x, y
-*/
-#box11{
-background-color: lightgreen;
+    animation-name: shrink;/*change value here*/
+    animation-duration: 5s;
 }
 #box22{
-background-color: rgb(236, 238, 144);
-}
-#box33{
-background-color: rgb(200, 55, 42);
-}
-#box44{
-justify-self: center;
-width: 100px;
-transform: translateX(100%) rotate(180deg) scale(2);
-
+    height: 150px;
+    justify-content: left;
+    animation-name: grow;/*change value here*/
+    animation-duration: 5s;
 }
 
+/*change color*/
+@keyframes color{
+    0%{background-color: green;}
+    20%{background-color: blue;}
+    50%{background-color: yellow;}
+    80%{background-color: orange;}
+    100%{background-color: violet;}
+}
+@keyframes glow{
+    0%{box-shadow:0px, 0px, 5px green;}
+    20%{box-shadow:0px, 0px, 5px blue;}
+    50%{box-shadow:0px, 0px, 5pxyellow;}
+    80%{box-shadow:0px, 0px, 5pxorange;}
+    100%{box-shadow:5px, 5px, 5pxviolet;}
+}
+/*slide*/
+@keyframes slideLeft{
+    from{transform: translateX(-300%)}
+}
+@keyframes slideRight{
+    to{transform: translateX(-300%)}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%)}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%)}
+}
+/*rotate*/
+@keyframes rotateX{
+    100%{transform: rotateX(360deg)}
+}
+@keyframes rotateY{
+    100%{transform: rotateY(360deg)}
+}
+@keyframes rotateZ{
+    50%{transform: rotateZ(360deg)}
+}
+/*grow*/
+@keyframes grow{
+    50%{transform: scale(2,2)}
+}
+/*shrink*/
+@keyframes shrink{
+    50%{transform: scale(0.5,0.5)}
+}
+/*fade*/
+@keyframes fade{
+    50%{opacity:0}
+}
+@keyframes fade2{
+    100%{opacity:0}
+}
