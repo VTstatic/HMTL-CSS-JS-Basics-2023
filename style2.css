@@ -113,6 +113,7 @@ main{
     box-shadow: 2px 2px 2px;
     text-align: center;
     margin: 20px;
+    height: 60vh;
 }
 
 #h1n1{
@@ -128,7 +129,6 @@ footer{
     padding: 10px;
 }
 
-
 @media screen and (max-width:600px){
     aside, section, article, {
         width: 100%;
@@ -142,52 +142,42 @@ footer{
     }
 }
 
-
-.container2{
-    display: flex;
-    border: 10px solid black;
-    height: 60vh;
-    flex-wrap: wrap;
-    /*flexbox wrap =
-    flex-wrap: nowrap;
-    flex-wrap: wrap;
-    flex-wrap: wrap-reverse;
-    */
-}
-.box2{
+/*start here*/
+.boxs{
     width: 150px;
     height: 150px;
+    border: 5px solid;
     font-size: 8em;
-    border-radius: 15px;
-    align-items: flex-end;
-    /*flexbox alignment =
-    align-items: flex-start;
-    align-items: flex-end;
-    align-items: center;
-    align-items: baseline;
-    */
+    text-align: center;
+
+    transform: translateX(100px) rotate(45deg) scale(0.9);
 }
-#box12{
-    background-color: lightblue;
-    align-self: start;
-    /*align box at flexbox=
-    align-self: start;
-    align-self: end;
-    align-self: center;
-    */
+/* transform properties
+transform: translate(10%, 10%)
+(x, Y)
+transform: rotateX(##deg)
+transform: rotateY(##deg)
+transform: rotateZ(##deg)
+transform: scaleX(##)
+transform: scaleY(##)
+transform: scale(#, #)x, y
+transform: skewX(##deg)
+transform: skewY(##deg)
+transform: skew(#, #)x, y
+*/
+#box11{
+background-color: lightgreen;
 }
 #box22{
-    background-color: lightcoral;
-    align-self: center;
+background-color: rgb(236, 238, 144);
 }
 #box33{
-    background-color: lightgreen;
-    align-self: end;
+background-color: rgb(200, 55, 42);
 }
 #box44{
-    background-color: lightgoldenrodyellow;
-}
-#box55{
-    background-color: lightsalmon;
+justify-self: center;
+width: 100px;
+transform: translateX(100%) rotate(180deg) scale(2);
+
 }
 
