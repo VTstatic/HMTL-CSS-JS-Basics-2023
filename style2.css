@@ -18,36 +18,83 @@
     bottom: -20px;
 }
 
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    
-}
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 0px;
-    display: block;
-    margin:0px;
-}
+/*Navigation*/
+/*flex properties:
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    */
+.container{
+    display: flex;
+    border: 2px solid rgb(245, 238, 51);
+    background-color: rgb(250, 158, 158);
+    border-radius: 15px;
+    justify-content: center;
 
-.navbar #icn{
-    padding: 0px;
-    margin: 0px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    float: inline-start;
+}
+.box:hover{
+    width: 60px;
+    height: 60px;
     text-align: center;
+    border-radius: 15px;
+    float: inline-start;
+}
+.box #icn:hover{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    float: inline-start;
 }
 
-.navbar #icn:hover{
-    width: 80px;
+#box1{
+    background-color: lightblue;
 }
-.navbar li{
-    float: left;
-    bottom: -20px;
-    width: 12px;
-    margin: 27px;
-    background: transparent;
+#box2{
+    background-color: lightcoral;
+}
+#box3{
+    background-color: lightgreen;
+}
+#box4{
+    background-color: lightgoldenrodyellow;
+}
+#box5{
+    background-color: lightsalmon;
+}
+
+/* Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    height: 20px;
+    width: 110px;
+    background-color: rgb(54, 50, 50);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 body{
@@ -80,6 +127,8 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+
 @media screen and (max-width:600px){
     aside, section, article, {
         width: 100%;
@@ -93,35 +142,52 @@ footer{
     }
 }
 
-.gallery{
-    display: inline-block;
-    border: 1px solid red;
-    margin: 5px;
 
+.container2{
+    display: flex;
+    border: 10px solid black;
+    height: 60vh;
+    flex-wrap: wrap;
+    /*flexbox wrap =
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    */
 }
-.gallery .description{
-    padding: 10px;
-    text-align: center;
+.box2{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    border-radius: 15px;
+    align-items: flex-end;
+    /*flexbox alignment =
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    */
 }
-.gallery:hover{
-    border: 2px solid black;
+#box12{
+    background-color: lightblue;
+    align-self: start;
+    /*align box at flexbox=
+    align-self: start;
+    align-self: end;
+    align-self: center;
+    */
 }
-.gallery img{
-    width: 100%;
-    height: auto;
+#box22{
+    background-color: lightcoral;
+    align-self: center;
+}
+#box33{
+    background-color: lightgreen;
+    align-self: end;
+}
+#box44{
+    background-color: lightgoldenrodyellow;
+}
+#box55{
+    background-color: lightsalmon;
 }
 
-.tooltiptext{
-    text-align: center;
-    font-size: small;
-}
-/* Tooltip for icon*/
-    .tooltip .tooltiptext {
-    visibility: hidden;
-    color: #000000;
-    float: left;
-  }
-  
-  .tooltip:hover .tooltiptext{
-    visibility: visible;
-  }

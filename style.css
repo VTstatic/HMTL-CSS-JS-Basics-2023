@@ -27,29 +27,70 @@ footer{
     color: gold;
     font-family: Borel;
 }
-.navbar ul{
-    list-style-type: none;
-    background-color:rgb(250, 87, 87);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    border: 3px solid;
+/*Navigation*/
+.container{
+    display: flex;
+    border: 2px solid rgb(245, 238, 51);
+    background-color: rgb(250, 158, 158);
     border-radius: 15px;
+    justify-content: center;
 }
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    display: block;
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    float: inline-start;
+}
+.box:hover{
+    width: 60px;
+    height: 60px;
     text-align: center;
+    border-radius: 15px;
+    float: inline-start;
 }
-.navbar a:hover{
-    background-color:rgb(248, 48, 48);
-    font-size: 1.3em;
-    font-weight: bold;
+.box #icn:hover{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    float: inline-start;
 }
-.navbar li{
-    float: left;
+
+#box1{
+    background-color: lightblue;
+}
+#box2{
+    background-color: lightcoral;
+}
+#box3{
+    background-color: lightgreen;
+}
+#box4{
+    background-color: lightgoldenrodyellow;
+}
+#box5{
+    background-color: lightsalmon;
+}
+
+/* Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    height: 20px;
+    width: 110px;
+    background-color: rgb(54, 50, 50);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 body{
@@ -76,9 +117,7 @@ main{
 h3{
     text-shadow: 2px 3px 3px gold;
 }
-p{
-    text-shadow: 2px 3px 3px gold;
-}
+
 #p1:hover{
 background-color: greenyellow;
 }
