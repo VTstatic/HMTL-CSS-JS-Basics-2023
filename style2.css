@@ -11,29 +11,43 @@
     font-family: Indie;
 }
 
+#anav{
+    color: gold;
+    font-family: Borel;
+    float: left;
+    bottom: -20px;
+}
+
 .navbar ul{
     list-style-type: none;
-    background-color:rgb(250, 87, 87);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border: 3px solid;
-    border-radius: 15px;
+    
 }
 .navbar a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 0px;
     display: block;
+    margin:0px;
+}
+
+.navbar #icn{
+    padding: 0px;
+    margin: 0px;
     text-align: center;
 }
-.navbar a:hover{
-    background-color:rgb(248, 48, 48);
-    font-size: 1.3em;
-    font-weight: bold;
+
+.navbar #icn:hover{
+    width: 80px;
 }
 .navbar li{
     float: left;
+    bottom: -20px;
+    width: 12px;
+    margin: 27px;
+    background: transparent;
 }
 
 body{
@@ -97,3 +111,17 @@ footer{
     height: auto;
 }
 
+.tooltiptext{
+    text-align: center;
+    font-size: small;
+}
+/* Tooltip for icon*/
+    .tooltip .tooltiptext {
+    visibility: hidden;
+    color: #000000;
+    float: left;
+  }
+  
+  .tooltip:hover .tooltiptext{
+    visibility: visible;
+  }
